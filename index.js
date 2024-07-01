@@ -1112,8 +1112,7 @@ async function run() {
       
     )
   });
-      });
-    });
+    
 
     app.post('/countryspot', async (req, res) => {
       const newCountrySpot = req.body;
